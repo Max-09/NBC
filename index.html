@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <tittle>SteamR</tittle>
 </head>
 <body>
-    
+    <div id="container">
+        <h1>CALCULAR IMPUESTOS</h1>
+        <form id="calculo">
+            <input type="text" step="any" name="precio" id="precio" placeholder="ARG" onchange="calcular()">
+        </form> 
+        <h2 id="resultado"></h2>
+    </div>
 </body>
-<script>
-    
-</script>
+<script src="js/calcular.js"></script>>
 </html>
